@@ -1,0 +1,117 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.home {
+    width: 100%;
+}
+
+.hero_section {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.hero_section img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.hero_text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 80%;
+    max-width: 1000px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 0 1rem;
+    z-index: 1;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+}
+
+.gallery_button_container {
+    position: absolute;
+    padding-bottom: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.gallery_button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#services {
+  scroll-margin-top: 60px; /* adjust based on your sticky navbar height */
+}
+
+
+
+@media (min-width: 769px) {
+    body {
+        overflow-x: hidden;
+    }
+    .hero_section {
+        width: 100%;
+    }
+
+    .hero_section img {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .explore_gallery img {
+        height: 150px;
+        width: 100%;
+    }
+
+    .gallery_button {
+        width: 500px;
+        text-align: center;
+    }
+
+    .gallery_button:hover {
+        background-color: white;
+        border: 2px solid white;
+    }   
+
+    .gallery_button_container {
+        top: 93%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .explore_gallery {
+        margin: 0;
+        padding: 0;
+    }
+    .explore_gallery img {
+        width: 100%;
+        height: 210px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .gallery_button {
+        width: 300px;
+        text-align: center;
+        
+    }
+}
+
+
+

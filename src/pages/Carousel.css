@@ -1,0 +1,38 @@
+/* carousel.css */
+.carousel {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.embla__slide img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.carousel__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.carousel__buttons button {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}

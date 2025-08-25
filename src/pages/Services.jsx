@@ -1,17 +1,35 @@
+/* eslint-disable no-unused-vars */
 import './Services.css';
-import Carousel from './Carousel';
+import MySwiper from './Carousel';
+import MySwiperAddOns from './CarouselAddOns';
+import { motion } from "motion/react";
 
 export default function Services() {
   return (
     <section id="services">
-        <h2>Services</h2>
-        <p>arrangement styles</p>
+        <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.5 }}
+            viewport={{ once: true, amount: 0.5 }} 
+        >
+            <div className="services_title">Services</div>
+        </motion.div>
+
+        <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 1 }}
+            viewport={{ once: true, amount: 0.5 }} 
+        >
+            <div className="styles_text">arrangement styles</div>
+        </motion.div>
         
-    <Carousel>
-      <img src="https://placekitten.com/800/400" alt="Kitten 1" />
-      <img src="https://placekitten.com/801/400" alt="Kitten 2" />
-      <img src="https://placekitten.com/802/400" alt="Kitten 3" />
-    </Carousel>
+    <MySwiper />
+
+    <div className="addons_text">add ons</div>
+
+    <MySwiperAddOns />
 
 
     </section>

@@ -1,0 +1,77 @@
+#contact {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: rgb(221,230,213);
+}
+
+.contact_section {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    word-spacing: 0.08em;
+    
+}
+
+.contact_title {
+    letter-spacing: 0.04em;
+    word-spacing: 0.08em;
+    font-family: "Instrument Serif", serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.social_link {
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(270deg, #ff6f91, #ff3e7f, #d90070);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 1.5s ease-in infinite;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 500;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.ig_link {
+    
+    display: inline-block;
+    background: linear-gradient(90deg, #ff6f91, #ff3e7f, #d90070);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    color: black;
+    
+}
+
+@media (min-width: 769px) {
+    .contact_section {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .contact_title {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .ig_link {
+        font-size: 20px;
+    }
+}

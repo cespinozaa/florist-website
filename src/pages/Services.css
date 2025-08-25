@@ -1,4 +1,44 @@
 #services {
     padding-top: 40px;
-    padding-bottom: 500px;
+    padding-bottom: 10px;
+}
+
+.styles_text {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    word-spacing: 0.08em;
+    font-style: italic;
+    margin-top: 1%;
+}
+
+.addons_text {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    word-spacing: 0.08em;
+    font-style: italic;
+    margin-top: 1%;
+}
+
+.services_title {
+    letter-spacing: 0.04em;
+    word-spacing: 0.08em;
+    font-family: "Instrument Serif", serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 32px;
+    padding-bottom: 25px;
+}
+
+@media (min-width: 769px) {
+    h2 {
+        font-size: 35px;
+        letter-spacing: 0.04em;
+        word-spacing: 0.08em;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
 }

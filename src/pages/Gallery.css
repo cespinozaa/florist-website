@@ -1,0 +1,86 @@
+.gallery {
+    padding: 30px;
+    padding-top: 110px;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.gallery_title {
+    color: black;
+    font-family: "Instrument Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: 0.04em;
+    word-spacing: 0.08em;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+}
+
+.gallery_order {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    word-spacing: 0.08em;
+}
+
+.contact_button {
+    padding: 12px 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    letter-spacing: 0.04em;
+    word-spacing: 0.08em;
+}
+
+
+@media (min-width: 1900px) {
+    .gallery_title {
+      padding-left: 170px;
+      padding-right: 200px;
+    }
+  }
+
+@media (min-width: 751px) and (max-width: 1120px){
+    .gallery_title {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+@media (max-width: 750px){
+    .gallery_title{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .gallery_title {
+        font-size: 35px;
+    }
+    .gallery_order {
+        font-size: 17px;
+    }
+    .gallery_pricing {
+        font-size: 13px;
+    }
+    .gallery_order button {
+        font-size: 15px;
+    }
+    .gallery {
+        padding-top: 0px;
+    }
+}

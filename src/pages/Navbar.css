@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    color: rgb(119, 117, 117);
-    background-color: rgba(252,238,233);
+    color: white;
+    background-color: #fbe5eb;
 }
 
 .header {
@@ -19,7 +19,6 @@ body {
 }
 
 .container {
-
     display: flex;
     justify-content: space-between;
     z-index: 1;
@@ -91,14 +90,17 @@ ul {
 .nav_option_name {
     text-align: left;
     font-size: 25px;
-    font-family: 'DM Serif Display', serif;
+    font-family: "Instrument Serif", serif;
+    font-weight: 600;
+    font-style: italic;
+    color: black;
 }
 
 .nav_option_name a {
   position: relative;
   color: black;
   text-decoration: none;
-  font-family: 'DM Serif Display', serif;
+
   font-size: 25px;
 }
 
@@ -155,6 +157,10 @@ ul {
         
     }
 
+    ul {
+        box-sizing: border-box;
+    }
+
    
 }
 
@@ -172,6 +178,11 @@ ul {
     .menu_toggle {
         display: block;
         
+    }
+
+    .nav_option a {
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0,0,0,1);
     }
 
     .close_button {

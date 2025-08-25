@@ -47,13 +47,10 @@ export default function Navbar() {
                             <Link to ="/gallery" onClick={closeMenu}>gallery</Link>
                         </li>
                         <li className="nav_option">
-                            <Link to ="/about" onClick={closeMenu}>about</Link>
+                            <HashLink smooth to ="/#about" onClick={closeMenu}>about</HashLink>
                         </li>
                         <li className="nav_option">
-                            <Link to ="/contact" onClick={closeMenu}>contact</Link>
-                        </li>
-                        <li className="nav_option">
-                            <Link to ="/order" onClick={closeMenu}>how to order</Link>
+                            <HashLink smooth to ="/#contact" onClick={closeMenu}>contact</HashLink>
                         </li>
                         
 

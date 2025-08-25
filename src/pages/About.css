@@ -1,0 +1,50 @@
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+h2 {
+    letter-spacing: 0.04em;
+    word-spacing: 0.08em;
+    font-weight: 1000;
+}
+
+.about_title {
+    letter-spacing: 0.04em;
+    word-spacing: 0.08em;
+    font-family: "Instrument Serif", serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 32px;
+    padding-bottom: 25px;
+}
+
+.about_container {
+    align-items: center;
+}
+
+.about_text {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    line-height: 1.8;
+    letter-spacing: 0.04em;
+    word-spacing: 0.08em;
+    font-size: 17px;
+    color: black;
+    align-items: center;
+}
+
+@media (min-width: 769px) {
+    .about_container{
+        margin: 0 auto;
+        text-align: center;
+        max-width: 1200px;
+    }
+
+    .about_text {
+        font-size: 18px;
+    }
+
+}

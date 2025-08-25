@@ -1,7 +1,6 @@
 body, html {
     margin: 0;
     padding: 0;
-    
 }
 
 .home {
@@ -23,8 +22,28 @@ body, html {
     object-fit: cover;
 }
 
+.hero_image {
+      position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%; 
+  object-fit: cover;
+  will-change: transform;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+p {
+    font-size: 18px;
+}
+
 .hero_text {
     position: absolute;
+    letter-spacing: 0.04em;
+    word-spacing: 0.08em;
     top: 40%;
     left: 50%;
     width: 80%;
@@ -34,7 +53,7 @@ body, html {
     text-align: center;
     padding: 0 1rem;
     z-index: 1;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+    text-shadow: 2px 2px 5px rgba(0,0,0,1);
 }
 
 .gallery_button_container {
@@ -47,6 +66,26 @@ body, html {
 
 .gallery_button {
     padding: 12px 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    word-spacing: 0.08em;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 35px;
+    margin-top: 20px;
+
+}
+
+#services {
+  scroll-margin-top: 60px; 
+}
+
+.contact_button {
+    padding: 12px 24px;
     font-size: 16px;
     background-color: transparent;
     color: black;
@@ -55,33 +94,80 @@ body, html {
     transition: background-color 0.3s ease;
 }
 
-#services {
-  scroll-margin-top: 60px; /* adjust based on your sticky navbar height */
+.how_to_order_section {
+    background-color: rgb(221,230,213);
 }
 
+.how_to_order_container {
+    padding-top: 20px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.order_interest{
+    padding-top: 40px;
+    font-family: "Instrument Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    letter-spacing: 0.04em;
+    word-spacing: 0.08em;
+}
+
+.how_to_order_button {
+    padding: 12px 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    letter-spacing: 0.04em;
+    word-spacing: 0.08em;
+}
+
+h3 {
+    letter-spacing: 0.04em;
+    word-spacing: 0.08em;
+}
 
 
 @media (min-width: 769px) {
     body {
         overflow-x: hidden;
     }
+
+    .hero_text h1 {
+        font-size: 45px;
+        padding-top: 30px;
+    }
+
+    .hero_text p {
+        font-size: 20px;
+    }
     .hero_section {
         width: 100%;
     }
 
     .hero_section img {
+        object-fit: cover;
+        height: auto;
         width: 100%;
-        height: 100vh;
     }
 
     .explore_gallery img {
-        height: 150px;
+        height: 200px;
         width: 100%;
     }
 
     .gallery_button {
         width: 500px;
         text-align: center;
+        font-size: 18px;
     }
 
     .gallery_button:hover {
@@ -90,8 +176,29 @@ body, html {
     }   
 
     .gallery_button_container {
-        top: 93%;
+  
     }
+
+    .contact_button {
+        width: 500px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .contact_button:hover {
+        background-color: white;
+        border: 2px solid white;
+    }   
+
+    .how_to_order_button {
+        font-size: 18px;
+    }
+
+    .how_to_order_button:hover {
+        background-color: white;
+        border: 2px solid white;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -109,7 +216,23 @@ body, html {
     .gallery_button {
         width: 300px;
         text-align: center;
-        
+        font-size: 17px;
+    }
+
+    .order_interest {
+        font-size: 24px; 
+    }
+
+    .contact_button {
+        width: 181px;
+        text-align: center;
+    }
+
+    .contact_section img {
+        width: 100%;
+        height: 210px;
+        margin: 0;
+        padding: 0;
     }
 }
 

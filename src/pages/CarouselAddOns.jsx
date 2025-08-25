@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';              // core styles
 import 'swiper/css/pagination';   // pagination module styles
 import 'swiper/css/navigation';   // navigation module styles
-import "./carousel.css"; 
+import "./Carousel.css"; 
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 

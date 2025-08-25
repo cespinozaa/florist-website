@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { HashLink } from "react-router-hash-link";
-import './footer.css';
+import './Footer.css';
 import { FaInstagram, FaFacebook } from 'react-icons/fa';
 
 

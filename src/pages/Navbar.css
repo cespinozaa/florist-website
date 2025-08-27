@@ -153,15 +153,13 @@ ul {
         width: 100%;
         max-width: 1400px;
         margin: 0 auto;
-        padding: 0 20px;
-        
+        padding: 0 20px; 
     }
 
     ul {
         box-sizing: border-box;
     }
 
-   
 }
 
 @media screen and (max-width: 750px) {
@@ -176,13 +174,11 @@ ul {
     }
 
     .menu_toggle {
-        display: block;
-        
+        display: block;  
     }
 
     .nav_option a {
         color: white;
-        text-shadow: 2px 2px 5px rgba(0,0,0,1);
     }
 
     .close_button {
@@ -194,9 +190,7 @@ ul {
         cursor: pointer;
         z-index: 11;
         color: white;
-        text-shadow: 2px 2px 5px rgba(0,0,0,1);
     }
-
 
     .nav_elements {
         position: fixed;
@@ -314,6 +308,7 @@ ul {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
+        font-weight: 600;
     }
 
     .spacer {

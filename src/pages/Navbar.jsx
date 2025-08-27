@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import { useState, useEffect } from "react";
 import './Navbar.css';
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 
 export default function Navbar() {
@@ -20,7 +22,7 @@ export default function Navbar() {
 
                 {/* Hamburger Icon */}
                 <button className="menu_toggle" onClick={toggleMenu}>
-                    ☰
+                    <MenuIcon fontSize="medium"/>
                 </button>
 
                 <div className="nav_option_name" onClick={closeMenu}>
@@ -33,7 +35,7 @@ export default function Navbar() {
                 <div className={`nav_elements ${isMenuOpen ? 'open' : ''}`}>
 
                     <div className="close_button" onClick={closeMenu}>
-                        ×
+                        <CloseIcon />
                     </div>
 
                     <ul>

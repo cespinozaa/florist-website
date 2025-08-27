@@ -73,3 +73,14 @@
     }
 
 }
+
+@media screen and (max-width: 768px) {
+    .footer_brand {
+        font-weight: 600;
+    }
+
+    .footer_nav{
+        text-align: justify;
+        display: inline;
+    }
+}

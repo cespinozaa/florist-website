@@ -23,7 +23,7 @@ export default function Contact() {
         >
             <div className="contact_section">
                 <p>Hi there! Ready to place an order? Have questions?</p>
-                <p>DM us on instagram  
+                <p>DM us on Instagram  
                     <a 
                         href="https://www.instagram.com/yasssflorecitas/"
                         target="_blank"
@@ -31,7 +31,7 @@ export default function Contact() {
                         className="social_link"
                     >  @yasssflorecitas</a>
                 </p>
-                <p>Shoot us an email at yasssflorecitas@gmail.com</p>
+
             </div>
         </motion.div>
 

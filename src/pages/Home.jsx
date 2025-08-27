@@ -33,7 +33,7 @@ export default function Home() {
                     transition={{ duration: 1, delay: 0.3 }}
                     viewport={{ once: true, amount: 0.5 }} 
                 >
-                    <h1>Curated Flower Arrangements</h1>
+                    <h1>Curated Floral Arrangements</h1>
                 </motion.div>
 
                 <motion.div

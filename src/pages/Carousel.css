@@ -6,6 +6,7 @@
     margin-right: 30px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .swiper-pagination-bullet {
@@ -34,13 +35,26 @@
  
 }
 
+h3 {
+    font-weight: 500;
+    font-style: italic;
+}
 
+.style_name {
+    text-align: left;
+}
+
+.caption_desc {
+    font-weight: 300;
+    text-align: justify;
+}
 
 @media (min-width: 769px) {
     .swiper {
         width: 100%;
         max-width: 1200px;
-        
+        margin: 0 auto;
+        padding-top: 30px;
     }
 
     .swiper-slide {
@@ -77,6 +91,13 @@
 
 }
 
+@media (min-width: 769px) and (max-width: 1201px) {
+    .swiper {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
 @media screen and (max-width: 750px) {
     .swiper-slide img {
         width: 100%;
@@ -85,6 +106,10 @@
         max-height: 400px;
         display: block;
         margin: 0 auto;
+    }
+
+    .style_name {
+        text-align: left;
     }
 
     .swiper-button-next,
@@ -96,7 +121,6 @@
  
     }
 
-    
     .swiper-button-next::after,
     .swiper-button-prev::after {
         display: none;

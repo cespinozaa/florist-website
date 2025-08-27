@@ -29,7 +29,7 @@ h2 {
     padding-right: 40px;
     text-align: center;
     line-height: 1.8;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.06em;
     word-spacing: 0.08em;
     font-size: 17px;
     color: black;
@@ -47,4 +47,15 @@ h2 {
         font-size: 18px;
     }
 
+}
+
+@media screen and (max-width: 768px) {
+    .about_title {
+        font-weight: 700;
+    }
+    
+    .about_text {
+        font-weight: 400;
+        text-align: center;
+    }
 }

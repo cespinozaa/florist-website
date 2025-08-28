@@ -13,7 +13,7 @@ const MySwiper = () => {
   return (
     <Swiper
       modules={[Autoplay, Pagination, Navigation]}
-      spaceBetween={60}
+      spaceBetween={40}
       slidesPerView= {1}
       breakpoints={{
         768: { slidesPerView: 2},

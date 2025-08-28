@@ -47,6 +47,7 @@ h3 {
 .caption_desc {
     font-weight: 300;
     text-align: justify;
+    color: rgb(102, 102, 102);
 }
 
 @media (min-width: 769px) {
@@ -72,6 +73,7 @@ h3 {
         object-fit: cover;   /* crop if needed */
         height: 300px;
         display: block;
+        border-radius: 20px;
 }
 
     .swiper-button-next,
@@ -106,6 +108,7 @@ h3 {
         max-height: 400px;
         display: block;
         margin: 0 auto;
+        border-radius: 20px;
     }
 
     .style_name {

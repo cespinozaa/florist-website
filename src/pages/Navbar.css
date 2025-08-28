@@ -131,13 +131,17 @@ ul {
         overflow-x: hidden;
         
     }
-        
 
     .header {
-        background-color: white;
+        background-color: none;
         height: 65px;
         display: flex;
-        
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+
     }
 
     .nav_option_name {
@@ -150,10 +154,12 @@ ul {
     }
 
     .container {
+        display: flex;
+        justify-content: space-between;
         width: 100%;
-        max-width: 1400px;
+        max-width: 1600px;
         margin: 0 auto;
-        padding: 0 20px; 
+        padding: 0 40px; 
     }
 
     ul {
